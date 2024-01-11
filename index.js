@@ -1,4 +1,3 @@
-/* eslint-disable ember/avoid-leaking-state-in-ember-objects */
 'use strict';
 const BasePlugin = require('ember-cli-deploy-plugin');
 const copy = require('recursive-copy');
