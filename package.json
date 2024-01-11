@@ -1,9 +1,10 @@
 {
-  "name": "ember-cli-deploy-adonis-plugin",
+  "name": "ember-cli-deploy-adonis",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin"
   ],
   "repository": "",
   "license": "MIT",
@@ -29,7 +30,9 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.26.11",
-    "ember-cli-htmlbars": "^6.2.0"
+    "ember-cli-deploy-plugin": "^0.2.9",
+    "ember-cli-htmlbars": "^6.2.0",
+    "recursive-copy": "^2.0.14"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.5",
